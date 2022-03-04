@@ -1,0 +1,655 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.left-side-panel{
+    width: 20%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    float: left;
+    border-right: 2px solid black;
+}
+
+.right-side-panel{
+    width: 79.8%;
+    height: 100%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+
+.heading-panel{
+    width: 100%;
+    height: 10%;
+    background-color: #E7E7E9;
+    float: left;
+}
+
+.heading-panel img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 42px;
+    opacity: 1;
+}
+
+.heading-panel img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.heading-panel h1{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 27px;
+    margin-left: 95px;
+}
+
+.edit_patient_picture{
+    background-color: white;
+}
+
+.edit_patient_details_modal{
+    margin-left: 20%;
+    width: 30%;
+    height: 75%;
+    background-color: #F0F0F0;
+    position: absolute;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Encode Sans', 'sans-serif';
+    display: none;  
+}
+
+.edit_patient_details_modal h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.edit_patient_details_modal label{
+    font-family: 'Varta', 'sans-serif';
+    display: block;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.edit_patient_details_modal input{
+    margin-left: 120px;
+    width: 310px;
+    height: 25px;
+    border: 2px solid black;
+    font-family: 'Varta', 'sans-serif';
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.edit_patient_details_modal button{
+    margin-left: 120px;
+    width: 320px;
+    height: 35px;
+    background-color: #168778;
+    font-family: 'Varta', 'sans-serif';
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit_patient_details_modal button:hover{
+    background-color: #168778dc;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.error-block{
+    margin: 0 auto;
+    width: 92%;
+    height: 20px;
+    /* background-color: tomato; */
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}
+
+.details-panel{
+    width: 100%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    float: left;
+}
+
+.details-con{
+    width: 1020px;
+    height: 280px;
+    margin-right: 90px;
+    /* background-color: rgb(107, 107, 107); */
+    float: right;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+}
+
+.previous-appointments-con{
+    width: 90%;
+    height: 65%;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+    border-top: 2px solid black;
+    overflow: auto;
+}
+
+.previous-appointments-con h1{
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+}
+
+.previous-appointments-con hr{
+    margin: 0;
+    width: 18%;
+    border: 0.7px solid rgba(0, 0, 0, 0.164);
+    float: left;
+}
+
+.single-previous-appointment{
+    width: 99%;
+    height: 15%;
+    background-color: rgb(202, 202, 202);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.date-con{
+    width: 24.6%;
+    height: 65%;
+    /* background-color: brown; */
+    float: left;
+    border-right: 2px solid black;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.appointment-type-con{
+    width: 37.5%;
+    height: 65%;
+    /* background-color: rgb(146, 146, 146); */
+    float: left;
+    border-right: 2px solid black;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.doctor-con{
+    width: 37.5%;
+    height: 65%;
+    /* background-color: chartreuse; */
+    float: left;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 23px;
+    font-weight: 600;
+}
+
+.e_heading{
+    margin: 0;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.phone_heading{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.medical_aid{
+    margin: 0;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.patient_profile_number{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.patient_profile_email{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.patient_medical_number{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.title-stream{
+    width: 100%;
+    height: 20%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    /* background-color: darkorange; */
+}
+
+.title-stream button{
+    margin-left: 500px;
+    padding: 7px;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.884);
+    background-color: rgb(255, 255, 255);
+}
+
+.title-stream button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.692);
+    border: 2.4px solid black;
+    cursor: pointer;
+}
+
+.patient_name{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    display: inline-block;
+    font-size: 29px;
+}
+
+.patient_id{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.delete_patient{
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    /* background-color: tomato; */
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 29px;
+    border-radius: 10px;
+    background-image: url(../assets/delete_icon.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.delete_patient:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.title-stream span{
+    display: inline-block;
+    font-size: 34px;
+    padding-left: 10px;
+}
+
+.edit_details_modal{
+    width: 500px;
+    height: 520px;
+    background-color: #F0F0F0;
+    position: absolute;
+    float: left;
+    margin-left: 440px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Encode Sans', 'sans-serif';
+    display: none;
+}
+
+.edit_details_modal h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+.edit_details_modal hr{
+    width: 400px;
+    height: 1px;
+    background-color: black;
+}
+
+.edit_details_modal label{
+    font-family: 'Varta', 'sans-serif';
+    display: block;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.edit_details_modal input{
+    margin-left: 70px;
+    width: 360px;
+    height: 30px;
+    border: 2px solid black;
+    font-family: 'Varta', 'sans-serif';
+    font-size: 16px;
+}
+
+.save_recep_edit{
+    margin-left: 70px;
+    width: 367px;
+    height: 50px;
+    background-color: #168778;
+    font-family: 'Varta', 'sans-serif';
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.save_recep_edit:hover{
+    cursor: pointer;
+    background-color: #168778c4;
+}
+
+.profileImageSection{
+    padding-top: 5px;
+}
+
+#close_icon{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 93%;
+    margin-top: -45px;
+    opacity: 1;
+}
+
+#close_icon:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.updateProfilePic{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.patient-profile-container{
+    width: 92%;
+    height: 92%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #ECECEC;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.315);
+}
+
+.profile-pic{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: darkblue;
+    float: left;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.anchor_recep{
+    color: black;
+}
+
+.mediscape-logo-con{
+    width: 100%;
+    height: 14%;
+    background-image: url(../assets/mediscape_landing_block.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation-container{
+    width: 100%;
+    height: 75%;
+    float: left;
+    /* background-color: coral; */
+}
+
+/***********appointment tab styles***********/
+
+.appointments-tab-con{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    border-top: 2px solid rgb(104, 104, 104);;
+}
+
+.appointments-tab-con:hover{
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 0.767);
+}
+
+.appointments-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 41px;
+    /* background-color: violet; */
+}
+
+.app-icon-holder{
+    width: 22%;
+    height: 100%;
+    /* background-color: tomato; */
+    float: left;
+    /* background-image: url(../assets/appointment_white.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.app-text-holder p{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.app-icon-holder img{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 5.2px;
+}
+
+/***********END of appointment tab styles*********/
+
+/***********patient tab styles*********/
+
+.patients-tab-con{
+    width: 100%;
+    height: 12%;
+    background-color: #21A296;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.patients-tab-con:hover{
+    cursor: default;
+}
+
+.patients-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* background-color: turquoise; */
+}
+
+.patients-icon-holder{
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+
+.patients-icon-holder img{
+    padding-left: 14px;
+    padding-top: 10px;
+}
+
+.patients-text-holder{
+    width: 78%;
+    height: 100%;
+    float: left;
+}
+
+.patients-text-holder p {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    padding-top: 9px;
+}
+
+/*******end of patient tab styles*********/
+
+/**********doctor tab styles***********/
+.doctors-tab-con{
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    opacity: 1;
+}
+
+.doctors-tab-con:hover{
+    background-color: rgba(230, 230, 230, 0.767);
+}
+
+.doctors-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* background-color: violet; */
+}
+
+.doctors-icon-holder{
+    width: 22%;
+    height: 100%;
+    float: left;
+    /* background-color: teal; */
+}
+
+.doctors-icon-holder img{
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.doctors-text-holder{
+    width: 78%;
+    height: 100%;
+    float: left;
+    /* background-color: yellow; */
+}
+
+.doctors-text-holder p{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+}
+
+/**********END of doctor tab styles***********/
+
+/**********RECEPTIONIST CON STYLES***********/
+.receptionist-profile-con{
+    width: 100%;
+    height: 10.8%;
+    float: left;
+    background-color: white;
+    border-top: 2px solid rgb(104, 104, 104);
+    opacity: 1;
+}
+
+.receptionist-profile-con:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.recep-pic-con{
+    width: 37%;
+    height: 100%;
+    /* background-color: violet; */
+    float: left;
+}
+
+.recep-info-con{
+    width: 63%;
+    height: 100%;
+    /* background-color: tomato; */
+    float: left;
+}
+
+.recep-image{
+    width: 65px;
+    height: 65px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.recep-name{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.recep-position{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+}

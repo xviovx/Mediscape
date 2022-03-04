@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.logo-con{
+    width: 270px;
+    height: 50px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 35px;
+    background-image: url(../assets/mediscape_logo.png);
+    background-position: cover;
+    background-size: cover;
+}
+
+.body-con{
+    width: 100%;
+    height: 88%;
+    padding-top: 45px;
+    /* background-color: rgb(30, 8, 48); */
+}
+
+.left-side-display{
+    width: 48%;
+    height: 85%;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-left: 200px;
+    float: left;
+}
+
+.left-side-display h1{
+    margin: 0;
+    font-family: 'Encode Sans', 'Calibri';
+    font-size: 72px;
+    color: #484848;
+    text-shadow: 3px 3px 2px #0000003d;
+}
+
+.left-side-display h3{
+    margin: 0;
+    margin-top: 15px;
+    font-family: 'Encode Sans', 'Calibri';
+    font-size: 22px;
+    font-weight: 400;
+    color: #484848;
+    text-shadow: 3px 3px 2px #0000003d;
+}
+
+.error-block{
+    margin-top: 750px;
+    margin-left: 63%;
+    font-family: 'Encode Sans', 'Calibri';
+    color: red;
+}
+
+.register-image-holder{
+    width: 100%;
+    height: 85%;
+    margin-top: 30px;
+    background-image: url(../assets/sign_up_graphic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.register-con{
+    float: right;
+    margin: 0 auto;
+    margin-right: 300px;
+    margin-top: 50px;
+    width: 25%;
+    height: 81%;
+    /* background-color: rgb(66, 7, 7); */
+    border-radius: 5px;
+}
+
+.register-con h1{
+    font-family: 'Encode Sans', 'Calibri';
+    font-size: 35px;
+    color: #484848;
+    text-shadow: 3px 3px 2px #0000003d;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.register-con h3{
+    font-family: 'Encode Sans', 'Calibri';
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
+    color: rgba(0, 0, 0, 0.411);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+hr{
+    width: 80%;
+    border-width: 2px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.form-info-container{
+    margin: 0 auto;
+    width: 70%;
+    height: 80%;
+    /* background-color: blue; */
+}
+
+form label{
+    font-family: 'Encode Sans', 'Calibri';
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+input{
+    margin-top: 12px;
+    width: 90%;
+    height: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.795);
+    font-family: 'Encode Sans', 'Calibri';
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.profileImageSection{
+    width: 60%;   
+}
+
+.profileImageDisplay{
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    display: inline-block;
+    float: right;
+    border-radius: 50%;
+    margin-right: 28px;
+    /* background-image: url(../assets/profile_placeholder.png);
+    background-position: center;
+    background-size: cover; */
+    border: 1px solid rgb(160, 160, 160);
+}
+
+select{
+    margin-top: 12px;
+    width: 95%;
+    height: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.795);
+    padding: 5px;
+    font-family: 'Varta', 'Calibri';
+    font-size: 15px;
+}
+
+button{
+    margin-top: 25px;
+    letter-spacing: 2px;
+    width: 130px;
+    height: 42px;
+    font-family: 'Varta', 'Calibri';
+    font-size: 17px;
+    padding-top: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: #168778;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #168778ef;
+    font-weight: 700;
+}
+
+#gender:hover{
+    cursor: pointer;
+}
+
+/* #error_msg{
+    font-family: 'Varta', 'Calibri';
+    padding-left: 12px;
+    font-size: 15px;
+    color: red;
+    display: inline-block;
+}*/
+
+p{
+    font-family: 'Varta', 'Calibri';
+    margin-top: 16px;
+    font-size: 16px;
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+p span{
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+p span a{
+    text-decoration: underline;
+    color: black;
+}
+
+p span a:hover{
+    color: rgba(0, 0, 0, 0.678);
+} 

@@ -1,0 +1,708 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+/*STYLES FOR LEFT PANEL LANDING*/
+
+.left-side-panel{
+    width: 20%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    float: left;
+}
+
+.mediscape-logo-con{
+    width: 100%;
+    height: 14%;
+    background-image: url(../assets/mediscape_landing_block.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation-container{
+    width: 100%;
+    height: 75%;
+    float: left;
+    /* background-color: coral; */
+}
+
+/***********appointment tab styles***********/
+
+.appointments-tab-con{
+    width: 100%;
+    height: 10%;
+    background-color: #21A296;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.appointments-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 41px;
+    /* background-color: violet; */
+}
+
+.app-icon-holder{
+    width: 22%;
+    height: 100%;
+    /* background-color: tomato; */
+    float: left;
+    /* background-image: url(../assets/appointment_white.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.app-text-holder p{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.app-text-holder p:hover{
+    cursor: default;
+}
+
+.app-icon-holder img{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/***********END of appointment tab styles*********/
+
+/***********patient tab styles*********/
+
+.patients-tab-con{
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.patients-tab-con:hover{
+    background-color: rgba(230, 230, 230, 0.767);
+}
+
+.patients-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* background-color: turquoise; */
+}
+
+.patients-icon-holder{
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+
+.patients-icon-holder img{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.patients-text-holder{
+    width: 78%;
+    height: 100%;
+    float: left;
+}
+
+.patients-text-holder p {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    padding-top: 9px;
+}
+
+/*******end of patient tab styles*********/
+
+/**********doctor tab styles***********/
+.doctors-tab-con{
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    opacity: 1;
+}
+
+.doctors-tab-con:hover{
+    background-color: rgba(230, 230, 230, 0.767);
+}
+
+.doctors-content-strap{
+    width: 75%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* background-color: violet; */
+}
+
+.doctors-icon-holder{
+    width: 22%;
+    height: 100%;
+    float: left;
+    /* background-color: teal; */
+}
+
+.doctors-icon-holder img{
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.doctors-text-holder{
+    width: 78%;
+    height: 100%;
+    float: left;
+    /* background-color: yellow; */
+}
+
+.doctors-text-holder p{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+}
+
+/**********END of doctor tab styles***********/
+
+/**********RECEPTIONIST CON STYLES***********/
+.receptionist-profile-con{
+    width: 100%;
+    height: 10%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(104, 104, 104);
+    opacity: 1;
+}
+
+.receptionist-profile-con:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.recep-pic-con{
+    width: 37%;
+    height: 100%;
+    /* background-color: violet; */
+    float: left;
+}
+
+.recep-info-con{
+    width: 63%;
+    height: 100%;
+    /* background-color: tomato; */
+    float: left;
+}
+
+.recep-image{
+    width: 65px;
+    height: 65px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.recep-name{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.recep-position{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+/*STYLES FOR RIGHT SIDE LANDING*/
+
+.right-side-panel{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+/******************styles for individual appointment detail panel*********************/
+
+.top-detail-panel{
+    width: 100%;
+    height: 8%;
+    float: left;
+    background-color: #e6e6e6;
+}
+
+.recep-email-display{
+    width: 13%;
+    height: 55%;
+    float: left;
+    /* background-color: #168778; */
+    padding-left: 7px;
+    padding-top: 12px;
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.top-detail-panel button{
+    font-family: 'Open Sans', 'Encode Sans', 'sans-serif';
+    float: right;
+    padding: 10px;
+    margin-right: 130px;
+    margin-top: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    width: 110px;
+}
+
+.top-detail-panel button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-weight: 700;
+}
+
+.daily-appointment-showcase-panel{
+    width: 100%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    float: left;
+}
+
+.app-title-holder{
+    width: 89%;
+    height: 20%;
+    /* background-color: brown; */
+    margin-top: 20px;
+    margin-left: 60px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.app-pat-info-holder{
+    width: 25%;
+    height: 85px;
+    /* background-color: hotpink; */
+    margin-left: 60px;
+    margin-top: 20px;
+    float: left;
+}
+
+.timestamp-info-holder{
+    width: 200px;
+    height: 85px;
+    /* background-color: blue; */
+    float: right;
+    margin-top: 15px;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 92px;
+}
+
+.timestamp-inv-date{
+    width: 40%;
+    height: 50%;
+    float: left;
+    /* background-color: chartreuse; */
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    border-right: 2px solid rgb(104, 104, 104);
+}
+
+.timestamp-inv-time{
+    width: 45%;
+    height: 62%;
+    float: left;
+    /* background-color: rgb(255, 0, 85); */
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.app-detail-image{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(160, 160, 160);
+    float: left;
+}
+
+.app-detail-name-email{
+    width: 150px;
+    height: 80px;
+    float: left;
+    /* background-color: lawngreen; */
+    font-family: 'Encode Sans', 'sans-serif';
+    padding-left: 25px;
+}
+
+.patient-det-name{
+    font-size: 22px;
+    font-weight: 600;
+    float: left;
+}
+
+.patient-det-email{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.603);
+    padding-top: 10px;
+    float: left;
+}
+
+.patient-indication-con{
+    width: 50px;
+    height: 20px;
+    padding-left: 5px;
+    background-color: rgb(194, 194, 194);
+    color: rgba(0, 0, 0, 0.349);
+    padding: 5px;
+    float: left;
+    font-family: 'Encode Sans', 'sans-serif';
+    margin-left: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/****************** END of styles for individual appointment detail panel*********************/
+
+/****************** STYLES FOR DAILY APPOINTMENT CON*********************/
+
+#close_icon{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 93%;
+    margin-top: -55px;
+    opacity: 1;
+}
+
+#close_icon:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.daily-appointment-showcase-panel{
+    width: 100%;
+    height: 80%;
+    background-color: orchid;
+}
+
+.daily-appointment-heading-con{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.507);
+}
+
+.daily-appointments-main-holder{
+    width: 100%;
+    height: 97.6%;
+    background-color: rgb(235, 235, 235);
+    overflow: auto;
+}
+
+.single-appointment-container{
+    overflow: hidden;
+    width: 89%;
+    height: 20%;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    display: block;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: 1px 3px #0000002f;
+}
+
+.single-appointment-container:hover{
+    background-color: rgba(248, 248, 248, 0.616);
+    cursor: pointer;
+    box-shadow: 1px 4px #0000005d;
+    
+}
+
+.date-and-time-con{
+    width: 19%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid black;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.date-and-time-con h4{
+    display: inline-flex;
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 1px;
+}
+
+.date-and-time-con h1{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 26px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 600;
+    display: inline-flex;
+}
+
+.date-and-time-con span{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.appointment-type-con{
+    font-family: 'Encode Sans', 'sans-serif';
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-left: 25px;
+    border-right: 2px solid black;
+    /* background-color: rgb(27, 87, 0); */
+}
+
+.appointment-type-con{
+    font-family: 'Encode Sans', 'sans-serif';
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-left: 25px;
+    border-right: 2px solid black;
+    /* background-color: rgb(27, 87, 0); */
+}
+
+.appointment-type-con h4{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.appointment-type{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.doctor-for-appointment-con{
+    font-family: 'Encode Sans', 'sans-serif';
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid black;
+    /* background-color: rgb(33, 0, 87); */
+    padding-left: 25px;
+}
+
+.doctor-for-appointment-con h4{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.appointment-doctor{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.patient-for-appointment-con{
+    font-family: 'Encode Sans', 'sans-serif';
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-left: 25px;
+    border-right: 2px solid black;
+    /* background-color: rgb(87, 0, 75); */
+}
+
+.patient-for-appointment-con h4{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.appointment-patient{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.delete-appointment-con{
+    width: 13%;
+    height: 100%;
+    float: left;
+}
+
+.delete-appointment-holder{
+    width: 30px;
+    height: 30px;
+    margin-left: 42%;
+    margin-top: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* background-color: blue; */
+    background-image: url('../assets/delete_icon.png');
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+.delete-appointment-holder:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.add-patient-content-con{
+    overflow: hidden;
+    margin-top: 1.5%;
+    margin-left: 4%;
+    width: 50%;
+    height: 60%;
+    /* background-color: blueviolet; */
+}
+
+.add-patient-content-con h1{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 28px;
+    margin: 0;
+    margin-top: 22px;
+    display: inline-flex;
+}
+
+.add-patient-content-con span{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.add-patient-content-con a button{
+    font-family: 'Encode Sans', 'sans-serif';
+    font-size: 28px;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 2px solid rgb(177, 177, 177);
+    background-color: #f1f1f1;
+}
+
+.add-patient-content-con a button:hover{
+    cursor: pointer;
+    background-color: #f1f1f18e;
+    border: 2px solid rgb(122, 122, 122);
+}
+
+/*********MODAL STYLES********/
+.add-appointment-modal{
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    background-color: #F0F0F0;
+    margin-left: 400px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Encode Sans', 'sans-serif';
+}
+
+.add-appointment-modal h1{
+    text-align: center;
+    font-size: 32px;
+}
+
+.add-appointment-modal hr{
+    width: 450px;
+    height: 1px;
+    background-color: black;
+}
+
+.add-appointment-modal label{
+    font-family: 'Varta', 'sans-serif';
+    display: block;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.add-appointment-modal form{
+    margin-top: 10px;
+}
+
+.add-appointment-modal input, select{
+    margin-left: 100px;
+    width: 400px;
+    height: 35px;
+    border: 2px solid black;
+    font-family: 'Varta', 'sans-serif';
+    font-size: 16px;
+}
+
+.add-appointment-modal select{
+    height: 40px;
+    width: 405px;
+}
+
+.add-appointment-modal button{
+    background-color: #168778;
+    border: none;
+    font-family: 'Varta', 'sans-serif';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.add_appointment_button{
+    display: block;
+}
+
+.add-appointment-modal button:hover{
+    background-color: #168778de;
+    cursor: pointer;
+}
+
+.anchor_recep{
+    color: black;
+}
+
+
+
+
+
+
+

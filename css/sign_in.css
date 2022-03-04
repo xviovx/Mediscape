@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.header-con{
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    /* background-color: rgb(201, 24, 24); */
+}
+
+.logo-con{
+    width: 270px;
+    height: 50px;
+    float: left;
+    margin-left: 380px;
+    margin-top: 50px;
+    background-image: url(../assets/mediscape_logo.png);
+    background-position: cover;
+    background-size: cover;
+}
+
+.body-con{
+    width: 100%;
+    height: 85%;
+    /* background-color: rgb(30, 8, 48); */
+}
+
+.content-con{
+    width: 70%;
+    height: 90%;
+    /* background-color: chartreuse; */
+    margin-left: 275px;
+    padding-top: 45px;
+}
+
+.image-holder{
+    width: 48%;
+    height: 48%;
+    padding-top: 10px;
+    /* background-color: cyan; */
+    float: left;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.sign-in-img{
+    width: 500px;
+    height: 320px;
+    /* background-color: red; */
+    float: left;
+    background-image: url(../assets/login_graphic.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.form-holder{
+    width: 40%;
+    height: 95%;
+    /* background-color: crimson; */
+    float: left;
+    margin-top: 25px;
+    padding-left: 45px;
+}
+
+.form-holder h1{
+    font-family: 'Encode Sans', 'Calibri';
+    font-size: 52px;
+    color: #484848;
+    text-shadow: 3px 3px 2px #0000003d;
+}
+
+.form-holder h3{
+    font-family: 'Encode Sans', 'Calibri';
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
+    color: rgba(0, 0, 0, 0.411);
+    margin-bottom: 30px;
+}
+
+form input{
+    width: 270px;
+    height: 60px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.651);
+    font-family: 'Varta', 'Calibri';
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+
+button{
+    margin-top: 15px;
+    letter-spacing: 2px;
+    width: 110px;
+    height: 50px;
+    font-family: 'Varta', 'Calibri';
+    font-size: 19px;
+    padding-top: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: #168778;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error-block{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    font-family: 'Varta', 'Calibri';
+    padding-top: 15px;
+    font-size: 18px;
+    color: red;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #168778ef;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Varta', 'Calibri';
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+p span{
+    font-weight: 700;
+}
+
+p span a{
+    text-decoration: underline;
+    color: black;
+}
+
+p span a:hover{
+    color: rgba(0, 0, 0, 0.678);
+}
